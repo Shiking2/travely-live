@@ -1,0 +1,1 @@
+const n=["bangkok","chiang-mai","phuket","tokyo","kyoto","goa","delhi","manali","cusco"];function s(t){return n.includes(t)}function u(t){const e=[],i=[];for(const o of t)s(o.id)?e.push(o):i.push(o);return{featured:e,rest:i}}export{u as p};
