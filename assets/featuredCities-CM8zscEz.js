@@ -1,0 +1,1 @@
+const e=["bangkok","chiang-mai","phuket","tokyo","kyoto","goa","delhi","manali","cusco"],a="מדריך מוכן",c="עוד ערים בקטלוג";function i(t){return e.includes(t)}function u(t){const n=[],s=[];for(const o of t)i(o.id)?n.push(o):s.push(o);return{featured:n,rest:s}}export{a as F,c as M,u as p};

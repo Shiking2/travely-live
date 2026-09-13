@@ -1,0 +1,1 @@
+import{j as e}from"./vendor-react-ckl7_ZCe.js";import{c as a,N as o}from"./vendor-router-Duur0YQ8.js";const c=()=>{const{continentId:t,countryId:r}=a();return t&&r?e.jsx(o,{to:`/country/${t}/${r}?tab=community`,replace:!0}):e.jsx(o,{to:"/",replace:!0})};export{c as default};
