@@ -1,0 +1,1 @@
+import{r as t}from"./vendor-react-ckl7_ZCe.js";function f(){const r=t.useRef(!1),[s,e]=t.useState(!1),u=t.useCallback(async a=>{if(r.current)return!1;r.current=!0,e(!0);try{return await a(),!0}finally{r.current=!1,e(!1)}},[]);return{busy:s,run:u}}export{f as u};
